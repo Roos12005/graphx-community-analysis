@@ -1,6 +1,6 @@
 # graphx-community-analysis
 
-	This repository is for research on Community analysis using Spark GraphX API, It contained several modules from several contributors as below. Please give a credit to them. The purpose of this project is for integrating graph algorithms into one module and can be used as general purpose framework for graph analytic.
+This repository is for research on Community analysis using Spark GraphX API, It contained several modules from several contributors as below. Please give a credit to them. The purpose of this project is for integrating graph algorithms into one module and can be used as general purpose framework for graph analytic.
 
 1. PageRank Algorithm
 From Spark GraphX API
@@ -14,14 +14,14 @@ From Sotera/spark-distributed-louvain-modularity
 
 # How to build
 	
-	You have to build project with 
+You have to build project with 
 
-build/mvn -Pyarn -Phadoop-2.4 -Dhadoop.version=2.4.0 -DskipTests clean package
+	build/mvn -Pyarn -Phadoop-2.4 -Dhadoop.version=2.4.0 -DskipTests clean package
 
 
 # How to use
 	
-	You can use startprocessingLocal.sh to submit program to Stand alone Spark (Local mode) or startprocessingCluster.sh to submit program to spark cluster (Yarn-client mode).
+You can use startprocessingLocal.sh to submit program to Stand alone Spark (Local mode) or startprocessingCluster.sh to submit program to spark cluster (Yarn-client mode).
 
 
 # How to specify parameter
